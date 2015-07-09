@@ -1,0 +1,33 @@
+    
+        PMCWHAT quick install document
+
+
+we are referring the DayDream dir as the default "/home/bbs" and temp dir
+to "/tmp/dd" in this document.
+
+1) copy pmcwhat and pmcwhat.cfg files to /home/bbs/doors and give the
+   permissions "chown bbs.users *" in the same dir, just in case.
+
+2) add pmcwhat to your daydream.cfg file like this:
+
+	DOOR_COMMAND.. PMCWHAT
+        DOOR_TYPE..... 1
+	DOOR_SECURITY. 10
+	DOOR_EXECUTE.. /home/bbs/doors/pmcwhat %N
+	DOOR_CONFS1... XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+	DOOR_CONFS2... XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+   remember to run "/home/bbs/utils/ddcfg /home/bbs/daydream.cfg" after 
+   the edition of configuration file. 
+
+3) login to daydream and type "pmcwhat" at main prompt.
+
+
+after you're tested and got the baby running, you can change the colours
+from the pmcwhat.cfg file to suit your bbs colour scheme.
+also you can find some more detailed information from our web pages.
+    
+    PMC Software Development 1999.
+    www.nekromantix.com/pmc
+    Snake Man, PMC.
+    

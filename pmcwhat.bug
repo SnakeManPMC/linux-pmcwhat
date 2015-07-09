@@ -1,0 +1,19 @@
+- if file is 0 byte (no fucking idea why dszlog logs this), it'll fuckup.
+- first file / CURRENT filename shows at the same time, remove firstfile.
+- first file... okay but UL or DL ?? it doesn't show that at all.
+- if not found dszlog but file transfer running, pmcwhat EXITS! nocandohoney.
+  usually this seems to be in STARTING of DOWNLOAD... dunno, check bitch!
+- if not exist dszlog, = error. remove the error and display "uploading" or
+  something suitable.  
+- many many many megs of transfers and the fucking user bytes: files: part
+  will disappear! weirdos people.  
+- first node user online, transfer stopped, cannot find dszlog file...
+
+- == simply a bug
+* == done but not verified!
+
+
+TODO
+- /tmp/dd/ddfilelist.nodenum = to be leeched list
+- X users where transferrring X files and X megs.
+- ftpinfo[nodenum].dat in dir if ftp-transfer.

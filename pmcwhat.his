@@ -1,0 +1,69 @@
+
+        .--------------------------------------.
+        | PMCWHAT (c) Snake Man, PMC 1996-2015 |
+        `--------------------------------------'
+
+    History of pmcwhat.ppe
+ (pcboard) / pmcwhat.c (daydream)
+   ------------------------
+---------------------------------
+  + added feature,  - general comment,  * bugfix
+
+
+
+08-11-99: / v0.2br2
+==================
+    * from node 1, didnt show transfers. now works from 1 -> 255 nodes.
+    + shows current file / cps (the file thats being upped right NOW).
+    * after firstfile user, no middle line was displayed, fixed.
+    * pmcwhat.cfg file dir was static, didnt work unless /code/.. :)
+
+
+
+08-10-99: / v0.1br6 inside beta-test
+==================
+    + user files/megs, and files/megs transferred by allusers.
+    + ansi color support, configurable from pmcwhat.cfg file.
+    + total_megs display.
+    - it now shows transferred files and user on node if not doing transfers.
+    - fixing tons of lousy routines to make the program more efficient 
+      and optimized the code.
+    + if not transferring -> output is modified to node#/name/org/action.
+
+
+08-01-99: / v0.0b  daydream/linux!
+==================
+    - finally got the pmcwhat.c to work under daydream/linux. the code was
+      prepared under win95 (bc5.1) for months before this.
+
+
+ ---- linux production started ----
+    
+ 
+08-15-1997 / v0.7
+==================
+    - some optimization but nothing changed really, v0.7 firm.
+
+
+10-22-1996 / v0.7á
+==================
+    - optimized source code with few more procedures. Its still a mess
+      but I'm trying to work it better... like in Kytron's ppe sources,
+      ohh boy those are so fucking smooth man!
+    * mynode was not working, fixed.
+    * no caller online didn't show up, fixed.
+    * username was duplicated along the filenames, fixed.
+    * user online, but previous users transfers we're showing up, fixed.
+    + download paths, configurable at the config file. max 10 of them.
+
+
+10-16-1996 / v0.6á
+==================
+    - First beta version out to the Elite BBS.
+      (I know its a fucking buggy).
+
+
+03-04-1996 / v0.0
+==================
+    ! Project initiated.
+
